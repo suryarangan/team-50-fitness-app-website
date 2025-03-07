@@ -1,6 +1,7 @@
-# 🏋️‍♂️ AI-Powered Fitness App
+# 🏋️‍♂️ FitGenie - AI-Powered Fitness App
 
-This is a web-based **AI-powered fitness app** that generates **personalized workout plans** and **motivational quotes** using the IVIS Labs API. Users can **select their workout type** and **difficulty level** (Beginner/Expert) from dropdowns, and the AI will provide a suitable workout plan. Additionally, users can get **motivational quotes** to stay inspired.
+This was done on behalf of Experential learning of 6th Semester Machine Learning course
+This is a web-based **AI-powered fitness app** that generates **personalized workout plans** and **motivational quotes** using the IVIS Labs API. Users can **select their workout type** and **difficulty level** (Beginner/Expert) from dropdowns, and the AI will provide a suitable workout plan. Additionally, users can get **motivational quotes** to stay inspired. 
 
 ---
 
@@ -102,5 +103,5 @@ Feel free to fork the repo, raise issues, or submit pull requests.
 ## 📝 License
 This project is **open-source**. You are free to modify and use it.  
 
-
+Thanks to IVIS Labs for their support and guidance to make this project
 
