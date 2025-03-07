@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, greenyellow, #12c2e9, #c471ed, #f64f59, greenyellow);
+    text-align: center;
+    padding: 20px;
+    color: white;
+    height: 100%;
+}
+
+#images{
+    width: 90%
+}
+
+.logos{
+    align-content: center;
+    width: 80px;
+    height: 80px;
+    padding-left: 25px;
+    padding-right: 25px;
+    box-shadow: 0 0 10px black;
+    border-radius: 5px;
+}
+
+#logo1{
+    width: 100px;
+    margin-left: 20px;
+    height: 100px;
+}
+#logo2{
+    width: 100px;
+    margin-left: 20px;
+    height: 100px;
+}
+#logo3{
+    width: 100px;
+    margin-left: 20px;
+    height: 100px;
+}
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1 {
+    color: #333;
+}
+
+textarea {
+    width: 90%;
+    height: 100px;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background: linear-gradient(90deg, lightskyblue, hotpink);
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    width: 80%;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: 0.5s ease-out;
+
+}
+
+button:active{
+    scale: 1.2;
+}
+
+
+button:hover {
+    background-color: #218838;
+}
+
+.output-container, .quote-container {
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: left;
+    font-size: 16px;
+    box-shadow: 0 0 10px black;
+
+    width: 90%
+}
+
+.output-container {
+    background: #e9ecef;
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+
+.quote-container {
+    background: linear-gradient(135deg, #12c2e9, #c471ed, #f64f59);;
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+}
+
+.output-container{
+    background: linear-gradient(135deg, #12c2e9, #c471ed, #f64f59);;
+    color: white;
+    font-weight: 400;
+}
+
+footer {
+    text-align: right;
+    margin-top: 20px;
+    color: black;
+}

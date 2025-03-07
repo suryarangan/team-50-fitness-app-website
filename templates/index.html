@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness AI Assistant</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div id = "images">
+            <img src="{{ url_for('static', filename='NIE_University.png') }}" alt="NIE" class = "logos" id="logo3">
+            <img src="{{ url_for('static', filename='PULSE_LOGO.png') }}" alt="PULSE" class = "logos" id = "logo2">
+            <img src="{{ url_for('static', filename='IVIS_logo.png') }}" alt="IVIS" class = "logos" id = "logo1">
+        </div>
+        <h1>FitGenie: AI Workout Planner</h1>
+        <textarea id="userInput" placeholder="Type a workout query..."></textarea>
+        <button onclick="getWorkoutDescription()">Get Workout Description</button>
+        <div id="workoutResponse" class="output-container"></div>
+
+        <button onclick="getMotivation()">Get Motivational Quote</button>
+        <div id="motivationResponse" class="quote-container"></div>
+        <footer>
+        &copy; Powered By IVIS Labs
+        </footer>
+    </div>
+
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
